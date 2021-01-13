@@ -120,35 +120,9 @@ var str = "Hello, playground"
 //value left to convert
 1 / 2
 
-//Creates constant with the value of 17
-//A constant CANNOT be changed once created
-let valueToConvert = 17
-//Create a variable with the value of "valueToConvert"
-//A variable CAN be changed once created
-var decimalValueLeftToConvert = valueToConvert
-//This creates an empty string
-//A string is is just text, like "hello"
-var binaryRepresentation = ""
-
-//The abstraction we will use is a LOOP
-//Our END CONDITION is that the decimalValueLeftToConvert is equal to zero
-//So long as the CONDITION is true, the block of code surrounded by the {} brackets will be run repeatedly
-while decimalValueLeftToConvert > 0 {
-    
-    //Get the next binary digit
-    let nextBinaryDigit = decimalValueLeftToConvert % 2
-    
-    //Add that digit to the binary representation
-    //Swift is a STRICTLY TYPED language
-    //It DOES NOT automatically convert data types
-    //So, to make the Int into a String, we need to specify this
-    binaryRepresentation = String(nextBinaryDigit) + binaryRepresentation
-    
-    //Get the decimal value left to convert
-    decimalValueLeftToConvert = decimalValueLeftToConvert / 2
-}
-binaryRepresentation
-
+//Enumeration
+//
+//An enumeration simply lists possibilities
 //Functions
 //
 //Functions are a way to group(encapsulate) related behaviour
@@ -158,5 +132,44 @@ binaryRepresentation
  
  Basic syntax of a function:
  
- func functionName(parameter, parameter2 ...)
+ func functionName(parameter, parameter2, ...) -> return type {
+ 
+ }
+ 
+ */
 
+//Get the alternate representation of a value in a different base
+func getRepresentation(of valueToConvert: Int, inBase base: Int) -> String {
+    
+    //Create a variable with the value of "valueToConvert"
+    //A variable CAN be changed once created
+    var decimalValueLeftToConvert = valueToConvert
+    //This creates an empty string
+    //A string is is just text, like "hello"
+    var representation = ""
+
+    //The abstraction we will use is a LOOP
+    //Our END CONDITION is that the decimalValueLeftToConvert is equal to zero
+    //So long as the CONDITION is true, the block of code surrounded by the {} brackets will be run repeatedly
+    while decimalValueLeftToConvert > 0 {
+        
+        //Get the next binary digit
+        let nextDigit = decimalValueLeftToConvert % base
+        
+        //Add that digit to the binary representation
+        //Swift is a STRICTLY TYPED language
+        //It DOES NOT automatically convert data types
+        //So, to make the Int into a String, we need to specify this
+        representation = String(nextDigit) + representation
+        
+        //Get the decimal value left to convert
+        decimalValueLeftToConvert = decimalValueLeftToConvert / base
+    
+    }
+    
+    return representation
+
+}
+
+getRepresentation(of: 17, inBase: 2 )
+getRepresentation(of: 17, inBase: 8 )
