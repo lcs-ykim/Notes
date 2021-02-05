@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		7F28463A25C35105000809EF /* Loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F28463F25C46AB0000809EF /* Loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7F32F50D25CC357100BC2864 /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FC8800025C0A1FA00B981F2 /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC8800325C0A1FA00B981F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7FC8800B25C0A21000B981F2 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Array.playground; path = ../Array.playground; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		7FC87FF725C0A1FA00B981F2 = {
 			isa = PBXGroup;
 			children = (
+				7F32F50D25CC357100BC2864 /* Structures.playground */,
 				7F28463A25C35105000809EF /* Loops.playground */,
 				7F28463F25C46AB0000809EF /* Loops.playground */,
 				7FC8800E25C0A21100B981F2 /* ALookAtStrings.playground */,
