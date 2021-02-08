@@ -32,6 +32,7 @@
 		7FC8800C25C0A21000B981F2 /* CaesarEncryption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = CaesarEncryption.playground; path = ../CaesarEncryption.playground; sourceTree = "<group>"; };
 		7FC8800D25C0A21100B981F2 /* OperatorsandConditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OperatorsandConditions.playground; path = ../OperatorsandConditions.playground; sourceTree = "<group>"; };
 		7FC8800E25C0A21100B981F2 /* ALookAtStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ALookAtStrings.playground; path = ../ALookAtStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7FC9492725D1A5D100907B2F /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		7FC87FF725C0A1FA00B981F2 = {
 			isa = PBXGroup;
 			children = (
+				7FC9492725D1A5D100907B2F /* Functions.playground */,
 				7F32F50D25CC357100BC2864 /* Structures.playground */,
 				7F28463A25C35105000809EF /* Loops.playground */,
 				7F28463F25C46AB0000809EF /* Loops.playground */,
